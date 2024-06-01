@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://github.com/Whaleloooool/LICH/blob/main/images/craiyon_221045_Stylized_design_for_a_logo_in_red_tones_with_runes_and_demonic_symbols.png?raw=truehttps://github.com/Whaleloooool/LICH/blob/main/images/craiyon_221045_Stylized_design_for_a_logo_in_red_tones_with_runes_and_demonic_symbols.png");
+    background-color: black;
 }
 
 .russo-one-regular {
@@ -7,37 +7,40 @@ body{
     font-weight: 400;
     font-style: normal;
 }  
+
+.navig {
+    color: rgb(236, 31, 49);
+    font-family: Russo One;
+    text-decoration: none;
+    display: block;  
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    padding-right: 7%;
+    width: 25%;
+    
+}
+
 .welcome_win{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
-    margin: 0 auto;
+    
+
     background-color: black;
 }
 .LICH_name{
-    position: absolute;
-    width: 580px;
-    height: 241px;
-    left: 34.9%;
-    right: 34.9%;
-    top: 7.78%;
-    bottom: 69.91%;
+
     color: rgb(236, 31, 49);
     font-family: Russo One;
     font-size: 200px;
     font-weight: 400;
     line-height: 241px;
     letter-spacing: 0px;
-    text-align: left;
+    text-align: center;
 }
 .welcome_desc{
-    position: absolute;
-    width: 1585px;
-    height: 231px;
-    left: 8.75%;
-    right: 8.7%;
-    top: 39.26%;
-    bottom: 39.35%;
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(236, 31, 49);
     font-family: Russo One;
     font-size: 64px;
@@ -46,26 +49,19 @@ body{
     letter-spacing: 0px;
     text-align: center;
 }
-.hack_button{
-    position: absolute;
-    width: 667px;
-    height: 204px;
-    left: 618px;
-    top: 754px;
-    margin: 0 auto;
+.hack_button {
+    position:relative;
+    
 }
 .hack{
-    position: absolute;
-    width: 443px;
-    height: 108px;
-    left: 38.02%;
-    right: 38.91%;
-    top: 74.26%;
-    bottom: 15.74%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 20%;
     color: rgba(236, 31, 49, 0.5);
+    border: 12px solid rgba(236, 31, 49, 0.5);
+    border-radius: 70px;
+    text-decoration: none; 
     font-family: Russo One;
     font-size: 90px;
     font-weight: 400;
@@ -75,20 +71,16 @@ body{
 }
 .second_welcome_win{
     position: relative;
-    width: 1920px;
-    height: 1080px;
+   
+    
     margin: 0 auto;
     background-color: black;
 }
 .second_welcome_desc{
-    position: absolute;
     width: 978px;
-    height: 232px;
-    left: 24.58%;
-    right: 24.48%;
-    top: 39.26%;
-    bottom: 39.26%;
-    color: rgb(236, 31, 49);
+    margin: auto;
+    margin-top: 10%;
+    color: #fc1313;
     font-family: Russo One;
     font-size: 96px;
     font-weight: 400;
@@ -97,29 +89,20 @@ body{
     text-align: center;
 }
 .next_button{
-    position: absolute;
-    width: 547px;
-    height: 187px;
-    left: 687px;
-    top: 707px;
-    border: 12px solid rgba(236, 31, 49, 0.5);
-    border-radius: 70px;
-    background: rgba(196, 196, 196, 0);
+position: relative;
+
 }
 .next{
 /* далее */
-position: absolute;
-width: 291px;
-height: 79px;
-left: 42.45%;
-right: 42.4%;
-top: 70.46%;
-bottom: 22.22%;
 display: flex;
-flex-direction: row;
-align-items: center;
-
+justify-content: center;
+margin: auto;
+margin-top: 10%;
+width: 20%;
 color: rgba(236, 31, 49, 0.5);
+border: 12px solid rgba(236, 31, 49, 0.5);
+border-radius: 70px;
+text-decoration: none; 
 font-family: Russo One;
 font-size: 90px;
 font-weight: 400;
@@ -135,52 +118,46 @@ height: 1080px;
 margin: 0 auto;
     background-color: black;
 }
-.header{
-/* header */
-position: absolute;
-width: 1475.37px;
-height: 190px;
-left: 8.95%;
-right: 31.82%;
-top: -32px;
-bottom: 1130px;
-margin: 0 auto;
-    background-color: black;
+
+.header {
+    position: fixed;
+    text-align: center;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    
+    
+   
 }
 .header_rect{
     /* Rectangle 2 */
-position: absolute;
-width: 80%;
-height: 158px;
-left: auto;
-right: auto;
-top: 0;
-bottom: 32px;
-border-radius: 0px 0px 70px 70px;
+    padding: 0px 100px 25px 95px;
+    left: 5%;
+    width: 73%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    position: relative;
+    border-radius: 0px 0px 70px 70px;
+    background: rgb(0, 0, 0);
+}
 
-background: rgb(0, 0, 0);
+.fon {
+    background-image: linear-gradient(red, black);
 }
 .left_corner{
 /* Oval 1 */
-position: absolute;
 width: 111.74px;
 height: 56.32px;
-left: 19.81%;
-right: 72.61%;
-top: 90.7px;
-bottom: 42.98px;
 transform: rotate(-128.34deg);
 background: rgb(0, 0, 0);
 }
 .main_menu_link{
 /* Главная */
-position: absolute;
 width: 198px;
 height: 57px;
-left: 22.49%;
-right: 64.08%;
-top: 47px;
-bottom: 86px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -195,13 +172,8 @@ text-align: center;
 }
 .news_link{
 /* Новости */
-position: absolute;
 width: 222px;
 height: 57px;
-left: 40.05%;
-right: 50%;
-top: 47px;
-bottom: 86px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -216,14 +188,8 @@ text-align: center;
 }
 .archive_link{
 /* Архив */
-
-position: absolute;
 width: 148px;
 height: 57px;
-left: 59.5%;
-right: 30.47%;
-top: 47px;
-bottom: 86px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -239,13 +205,8 @@ text-align: center;
 .operations_link{
 /* Операции */
 
-position: absolute;
 width: 241px;
 height: 57px;
-left: 75.3%;
-right: 8.37%;
-top: 47px;
-bottom: 86px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -260,13 +221,8 @@ text-align: center;
 }
 .map_link{
 /* Карта */
-position: absolute;
 width: 141px;
 height: 57px;
-left: 98.27%;
-right: -7.83%;
-top: 47px;
-bottom: 86px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -282,136 +238,41 @@ text-align: center;
 .right_corner{
 /* Oval 1 */
 
-position: absolute;
 width: 111.74px;
 height: 56.32px;
-left: 110.42%;
-right: -17.99%;
-top: 90.57px;
-bottom: 43.11px;
+
 transform: rotate(-51.66deg);
 background: rgb(0, 0, 0);
 }
 .left_main_corner{
     /* Oval 1 */
-position: absolute;
 width: 111px;
 height: 56.09px;
-left: 15.22%;
-right: 78.99%;
-top: 91.76%;
-bottom: 3.05%;
 transform: rotate(128.64deg);
 background: rgb(0, 0, 0);
 }
 .right_main_corner{
     /* Oval 1 */
-position: absolute;
 width: 111px;
 height: 56.09px;
-left: 84.85%;
-right: 9.37%;
-top: 91.76%;
-bottom: 3.05%;
 transform: rotate(51.36deg);
 background: rgb(0, 0, 0);
 }
 .main_win{
 /* Rectangle 3 */
-position: absolute;
 width: 1338px;
-height: 708.36px;
-left: 19.74%;
-right: -10.48%;
-top: 51.49%;
-bottom: -47.22%;
+
 border-radius: 70px 70px 0px 0px;
 margin: 0 auto;
     background-color: black;
+    
 
 }
-.first_background_image{
-    /* craiyon_224304_futuristic_skyscraper_in_rainy_night_and_cyberpunk_style_and_red_tones */
-position: absolute;
-width: 359px;
-height: 1080px;
-left: 0;
-right: 2132px;
-top: 0;
-bottom: 208px;
-background: url(Whaleloooool.github.io/LICH/images/craiyon_224304_futuristic_skyscraper_in_rainy_night_and_cyberpunk_style_and_red_tones.png);
-}
-.second_background_image{
-    position: absolute;
-width: 629px;
-height: 346px;
-left: 336px;
-right: 1526px;
-top: 63px;
-bottom: 879px;
-background: url(Whaleloooool.github.io/LICH/images/craiyon_224257_futuristic_skyscraper_in_rainy_night_and_cyberpunk_style_and_red_tones.png);
-}
-.third_background_image{
-    position: absolute;
-width: 1526px;
-height: 1090px;
-left: 965px;
-right: 0;
-top: 0;
-bottom: 198px;
-background: url(Whaleloooool.github.io/LICH/images/craiyon_224254_futuristic_skyscraper_in_rainy_night_and_cyberpunk_style_and_red_tones.png);
-}
-.four_background_image{
-    /* craiyon_224301_futuristic_skyscraper_in_rainy_night_and_cyberpunk_style_and_red_tones */
-position: absolute;
-width: 421px;
-height: 1288px;
-left: 1584px;
-right: 486px;
-top: -104px;
-bottom: 104px;
-background: url(Whaleloooool.github.io/LICH/images/craiyon_224301_futuristic_skyscraper_in_rainy_night_and_cyberpunk_style_and_red_tones.png);
-}
-.art_block{
-/* Mask */
-position: absolute;
-width: 458.74px;
-height: 351.05px;
-left: 719px;
-right: 742.26px;
-top: 278px;
-bottom: 450.95px;
-margin: 0 auto;
-}
-.logo_image{
-    position: absolute;
-width: 421px;
-height: 283px;
-left: 160.88%;
-right: -152.65%;
-top: 108.82%;
-bottom: -89.43%;
-background: url(Whaleloooool.github.io/LICH/images/craiyon_221045_Stylized_design_for_a_logo_in_red_tones_with_runes_and_demonic_symbols.png);
-}
-/*
-.left_corner_art{
 
-}
-.oval_art{
 
-}
-.right_corner_art{
-1
-}
-*/
 .main_desc_1{
-    position: absolute;
     width: 475px;
     height: 681px;
-    left: 318px;
-    right: 1127px;
-    top: 399px;
-    bottom: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -424,13 +285,8 @@ background: url(Whaleloooool.github.io/LICH/images/craiyon_221045_Stylized_desig
     text-align: justify;
 }
 .main_desc_2{
-    position: absolute;
     width: 475px;
     height: 679px;
-    left: 1128px;
-    right: 317px;
-    top: 401px;
-    bottom: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -444,13 +300,8 @@ text-align: justify;
 }
 .lock{
 /* НЕДОСТУПНО */
-position: absolute;
 width: 504px;
 height: 64px;
-left: 37.14%;
-right: 36.61%;
-top: 66.02%;
-bottom: 28.06%;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -464,14 +315,11 @@ letter-spacing: 0px;
 text-align: justify;
 }
 .history_of_LICH{
-    position: absolute;
     width: 1235.17px;
     height: 632px;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
     color: rgb(236, 31, 49);
+    margin-left: 6%;
+    margin-top: 20%;
 font-family: Russo One;
 font-size: 29px;
 font-weight: 400;
@@ -481,11 +329,8 @@ text-align: justify;
 }
 .map_art{
 /* World of LICH PMC 2024-05-16-21-30 */
-position: absolute;
 width: 1921px;
 height: 922px;
-left: 0;
-top: 158px;
 box-sizing: border-box;
 border: 4px solid rgba(236, 31, 49, 0.5);
 border-radius: 70px;
@@ -494,11 +339,8 @@ background: url("https://github.com/Whaleloooool/LICH/blob/main/images/craiyon_2
 }
 .map_legend_sign_base{
 /* Oval 4 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 19px;
-top: 922px;
 box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
 background: rgba(255, 0, 0, 0);
@@ -507,13 +349,8 @@ opacity: 0.8;
 }
 .map_legend_desc_base{
 /* - центральная континентальная база корпорации */
-position: absolute;
 width: 375px;
 height: 49px;
-left: 4.58%;
-right: 75.89%;
-top: 85.46%;
-bottom: 10%;
 color: rgb(236, 31, 49);
 font-family: Russo One;
 font-size: 20px;
@@ -524,11 +361,8 @@ text-align: left;
 }
 .map_legend_sign_warbase{
 /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 19px;
-top: 984px;
 box-sizing: border-box;
 border: 9px solid rgb(174, 5, 135);
 background: rgba(255, 0, 0, 0);
@@ -536,13 +370,8 @@ opacity: 0.8;
 }
 .map_legend_desc_warbase{
 /* - основные военные базы корпорации */
-position: absolute;
 width: 411px;
 height: 25px;
-left: 4.53%;
-right: 74.06%;
-top: 92.22%;
-bottom: 5.46%;
 color: rgb(236, 31, 49);
 font-family: Russo One;
 font-size: 20px;
@@ -553,11 +382,8 @@ text-align: left;
 }
 .map_sign_base_1{
 /* Group 21 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 988px;
-top: 776px;
 box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
 background: rgba(255, 0, 0, 0);
@@ -565,11 +391,8 @@ opacity: 0.8;
 }
 .map_sign_base_2{
     /* Group 19 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 1534px;
-top: 959px;
     box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
 background: rgba(255, 0, 0, 0);
@@ -577,11 +400,8 @@ opacity: 0.8;
 }
 .map_sign_base_3{
     /* Oval 4 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 1221px;
-top: 511px;
     box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
 background: rgba(255, 0, 0, 0);
@@ -589,11 +409,8 @@ opacity: 0.8;
 }
 .map_sign_base_4{
     /* Oval 4 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 1813px;
-top: 211px;
     box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
 background: rgba(255, 0, 0, 0);
@@ -601,11 +418,8 @@ opacity: 0.8;
 }
 .map_sign_base_5{
     /* Oval 4 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 600px;
-top: 891px;
     box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
 background: rgba(255, 0, 0, 0);
@@ -613,11 +427,8 @@ opacity: 0.8;
 }
 .map_sign_base_6{
     /* Oval 4 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 438px;
-top: 461px;
     box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
 background: rgba(255, 0, 0, 0);
@@ -625,11 +436,8 @@ opacity: 0.8;
 }
 .map_sign_warbase_1{
 /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 1121.16px;
-top: 890.26px;
     box-sizing: border-box;
     border: 9px solid rgb(174, 5, 135);
     background: rgba(255, 0, 0, 0);
@@ -637,11 +445,8 @@ top: 890.26px;
 }
 .map_sign_warbase_2{
     /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 1523.16px;
-top: 235.26px;
     box-sizing: border-box;
 border: 9px solid rgb(174, 5, 135);
 background: rgba(255, 0, 0, 0);
@@ -649,23 +454,16 @@ opacity: 0.8;
 }
 .map_sign_warbase_3{
     /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 1059.16px;
-top: 358.26px;
     box-sizing: border-box;
 border: 9px solid rgb(174, 5, 135);
 background: rgba(255, 0, 0, 0);
 opacity: 0.8;
 }
 .map_sign_warbase_4{
-    /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 853.16px;
-top: 510.26px;
     box-sizing: border-box;
 border: 9px solid rgb(174, 5, 135);
 background: rgba(255, 0, 0, 0);
@@ -673,11 +471,8 @@ opacity: 0.8;
 }
 .map_sign_warbase_5{
     /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 342.16px;
-top: 643.26px;
     box-sizing: border-box;
 border: 9px solid rgb(174, 5, 135);
 background: rgba(255, 0, 0, 0);
@@ -685,11 +480,8 @@ opacity: 0.8;
 }
 .map_sign_warbase_6{
     /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 74.16px;
-top: 261.26px;
     box-sizing: border-box;
 border: 9px solid rgb(174, 5, 135);
 background: rgba(255, 0, 0, 0);
@@ -697,11 +489,8 @@ opacity: 0.8;
 }
 .map_sign_warbase_7{
     /* Oval 5 */
-position: absolute;
 width: 50px;
 height: 50px;
-left: 645.16px;
-top: 212.26px;
     box-sizing: border-box;
 border: 9px solid rgb(174, 5, 135);
 background: rgba(255, 0, 0, 0);
@@ -709,9 +498,6 @@ opacity: 0.8;
 }
 .box_desc_base{
 /* desc base 1 */
-position: relative;
-width: 400px;
-height: 251px;
 margin:auto;
 box-sizing: border-box;
 border: 9px solid rgb(236, 31, 49);
@@ -720,13 +506,8 @@ border-radius: 70px;
 background: rgb(0, 0, 0);
 }
 .desc_base_1{
-    position: absolute;
 width: 400px;
 height: 251px;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -739,13 +520,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_2{
-    position: absolute;
     width: 467px;
     height: 251px;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -758,13 +534,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_3{
-    position: absolute;
 width: 368px;
 height: 251px;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -779,10 +550,6 @@ align-items: center;
 .desc_base_4{
     width: 534px;
 height: 197px;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -795,13 +562,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_5{
-    position: absolute;
 width: 504px;
 height: 262px;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -814,13 +576,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_6{
-    position: absolute;
 width: 377px;
 height: 210px;
-left: 15px;
-right: 15px;
-top: 4px;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -833,13 +590,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_7{
-    position: absolute;
 width: 707px;
 height: 236px;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -852,13 +604,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_8{
-    position: absolute;
 width: 539px;
 height: 324px;
-left: 9px;
-right: 10px;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -871,13 +618,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_9{
-    position: absolute;
 width: 690px;
 height: 284px;
-left: 9px;
-right: 9px;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -890,13 +632,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_10{
-    position: absolute;
 width: 452px;
 height: 213px;
-left: 28px;
-right: 29px;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -910,13 +647,8 @@ align-items: center;
     text-align: center;
 }
 .desc_base_11{
-    position: absolute;
 width: 436px;
 height: 213px;
-left: 9px;
-right: 10px;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -930,13 +662,8 @@ align-items: center;
 }
 
 .desc_base_12{
-    position: absolute;
 width: 490px;
 height: 263px;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -950,13 +677,8 @@ align-items: center;
 }
 
 .desc_base_13{
-    position: absolute;
 width: 471px;
 height: 229px;
-left: 11px;
-right: 11px;
-top: 0;
-bottom: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
